@@ -1,12 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
-</head>
-<body>
-    <h1 style="color: blue">Index</h1>
-    <p>This is an HTML file served up by Flask</p>
-</body>
-</html>
+<!-- this is the child template -->
+<!-- inherit from file path you want to render ie our public template -->
+<!-- when ever we render this file it will pull the code from the file in the code path below -->
+{% extends "public/templates/public_template.html" %}
+<!-- matching the block names as the file being refered to -->
+{% block title %} HOME {% endblock %}
+
+{% block main %}
+    <div class = "container">
+        <div class="row">
+            <div class="col">
+                <h1>HOME</h1>
+            </div>
+        </div>
+    </div>
+{% endblock %}
