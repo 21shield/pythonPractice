@@ -1,0 +1,21 @@
+<!-- this is the child template -->
+<!-- inherit from file path you want to render ie our public template -->
+<!-- when ever we render this file it will pull the code from the file in the code path below -->
+{% extends "public/templates/public_template.html" %}
+<!-- matching the block names as the file being refered to -->
+<!-- {% block title %} About {% endblock %}  -->
+
+{% block main %}
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1>About</h1>
+      <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, nisi illo voluptatem molestias ut ea eum aliquid tempora tempore cupiditate rerum, velit officiis facere repellat quia minus quidem hic corporis?
+
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. In saepe excepturi, et aperiam commodi aliquid corrupti velit sint odio tenetur rerum id ipsa repellat voluptas doloremque deleniti nostrum vero officiis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate possimus accusantium harum voluptates, maxime illum quae aliquid non ipsum aliquam nam exercitationem cumque dignissimos impedit ullam mollitia fugiat consequatur quisquam asperiores officiis quaerat soluta dolorum in enim! Tempora iste nisi dicta sequi voluptates? Repellendus consequatur aspernatur pariatur, recusandae ullam soluta! Dolore sit debitis aperiam eius labore dolorum adipisci eos totam laudantium nisi, perferendis vel magnam blanditiis enim rem consequuntur consequatur. Est blanditiis, accusantium nisi non natus ullam nostrum quasi commodi obcaecati minima consequatur facere deleniti. Aut ad porro, exercitationem unde cupiditate error placeat numquam ipsum pariatur sint obcaecati vero delectus nulla doloremque laborum quam modi. Labore, suscipit dicta. Ducimus tempore, quia id excepturi natus adipisci omnis reiciendis reprehenderit sunt necessitatibus, est blanditiis nulla veniam odio iure! Doloremque consequuntur reprehenderit nisi. Magni mollitia aut tenetur vel! Quia quibusdam obcaecati voluptas dolores error laborum incidunt fuga officia ipsa minima totam, quis repellat corporis similique exercitationem laudantium provident libero vero? Alias tempora illum voluptatum molestias corporis doloribus a hic illo, beatae enim inventore incidunt nemo praesentium, at fugit nobis modi odit deserunt! Voluptate, at aut. Impedit quae voluptatem modi quaerat, nisi itaque? Possimus omnis explicabo id hic excepturi? Quo iste deleniti id aspernatur.
+      </p>
+    </div>
+  </div>
+</div>
+{% endblock %}

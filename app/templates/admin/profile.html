@@ -1,6 +1,3 @@
-<!-- this is the child template -->
-<!-- inherit from file path you want to render ie our public template -->
-<!-- when ever we render this file it will pull the code from the file in the code path below -->
 {% extends "admin/templates/admin_template.html" %}
 <!-- matching the block names as the file being refered to -->
 {% block title %} Admin dashboard {% endblock %} 
@@ -9,7 +6,8 @@
 <div class="container">
   <div class="row">
     <div class="col">
-      <h1>ADMIN Dashboard</h1>
+      <h1>Profile</h1>
+      <img src="../static/img/me.jpeg" alt="picture">
     </div>
   </div>
 </div>
